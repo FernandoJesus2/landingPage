@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;;   
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: rgba(43, 37, 37, 0.822);
+}
+
+h1{
+    margin: 0;
+}
+
+
+
+.cabecalho header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 1070px;
+    margin: auto;
+}
+
+.cabecalho header .esquerda{
+    display: flex;
+}
+
+.cabecalho header .centro{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cabecalho header .direita{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.cabecalho header .esquerda .logo{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho header .direita .menu{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho header .direita .menu button{
+    font-size: 12px;
+    margin-right: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 5px 10px; 
+}
+
+.cabecalho header .direita .menu img{
+    width: 20px;
+    
+}
+
+.cabecalho header .direita .menu button:hover{
+    /*1º muda a seta do mouse para uma "mão"
+      2º aumenta a fonte
+    */
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/*............................*/
+
+.main{
+    padding-top: 50px;
+    margin: auto;
+    width: 1070px
+}
+
+.main .container{
+    padding: 20px;
+    display: flex;
+    min-height: 450px;   
+}
+
+.main .container .descricao h2,
+.main .container .descricao h3{
+    margin: 0;
+    width: 600px;
+    text-align: start;
+}
+
+.main .container .descricao h2{
+    font-size: 60px;
+}
+
+.main .container .descricao h3{
+    font-size: 20px;
+}
+
+.main .container .hero img{
+    width: 100%;
+    height: 100%;
+}
+
+.main .container .descricao h3 img{
+    width: 25px;
+}
+
+/*............................*/
+
+.main .apresentacao{
+    padding: 20px;
+}
+
+.main .apresentacao .titulo{
+    display: flex;
+    font-size: 25px;
+    padding: 30px 0;
+}
+
+.main .apresentacao .apresen_imagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .apresentacao .apresen_imagens .image{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.main .apresentacao .apresen_imagens .image img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.144);
+    border-radius: 5px;
+}
+
+.rodape footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
